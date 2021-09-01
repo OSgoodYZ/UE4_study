@@ -1,0 +1,67 @@
+/MANIFEST:NO
+/NOLOGO
+/DEBUG
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/FIXED:No
+/NXCOMPAT
+/STACK:5000000
+/DELAY:UNLOAD
+/DLL
+/PDBALTPATH:%_PDB%
+/OPT:NOREF
+/OPT:NOICF
+/INCREMENTAL:NO
+/ignore:4199
+/ignore:4099
+/DELAYLOAD:"d3d12.dll"
+/NODEFAULTLIB:"LIBCMT"
+/NODEFAULTLIB:"LIBCPMT"
+/NODEFAULTLIB:"LIBCMTD"
+/NODEFAULTLIB:"LIBCPMTD"
+/NODEFAULTLIB:"MSVCRTD"
+/NODEFAULTLIB:"MSVCPRTD"
+/NODEFAULTLIB:"LIBC"
+/NODEFAULTLIB:"LIBCP"
+/NODEFAULTLIB:"LIBCD"
+/NODEFAULTLIB:"LIBCPD"
+"X:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"X:\OSgoodYZ\UE4_study\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\ArenaBattle.cpp.obj"
+"X:\OSgoodYZ\UE4_study\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\Fountain.cpp.obj"
+"X:\OSgoodYZ\UE4_study\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\ArenaBattle.init.gen.cpp.obj"
+"X:\OSgoodYZ\UE4_study\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\Fountain.gen.cpp.obj"
+"X:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\PCLaunch.rc.res"
+"X:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+"delayimp.lib"
+"wininet.lib"
+"rpcrt4.lib"
+"ws2_32.lib"
+"dbghelp.lib"
+"comctl32.lib"
+"Winmm.lib"
+"kernel32.lib"
+"user32.lib"
+"gdi32.lib"
+"winspool.lib"
+"comdlg32.lib"
+"advapi32.lib"
+"shell32.lib"
+"ole32.lib"
+"oleaut32.lib"
+"uuid.lib"
+"odbc32.lib"
+"odbccp32.lib"
+"netapi32.lib"
+"iphlpapi.lib"
+"setupapi.lib"
+"dwmapi.lib"
+"imm32.lib"
+"X:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Engine.lib"
+"X:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Core.lib"
+"X:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoreUObject.lib"
+"X:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-InputCore.lib"
+/OUT:"X:\OSgoodYZ\UE4_study\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-6354.dll"
+/IMPLIB:"X:\OSgoodYZ\UE4_study\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-6354.suppressed.lib"
+/PDB:"X:\OSgoodYZ\UE4_study\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-6354.pdb"
+/ignore:4078

@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-ArenaBattle-7913.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"X:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"X:\OSgoodYZ\UE4_study\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\ArenaBattle.cpp.obj"
+"X:\OSgoodYZ\UE4_study\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\Fountain.cpp.obj"
+"X:\OSgoodYZ\UE4_study\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\ArenaBattle.init.gen.cpp.obj"
+"X:\OSgoodYZ\UE4_study\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\Fountain.gen.cpp.obj"
+"X:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\PCLaunch.rc.res"
+"X:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"X:\OSgoodYZ\UE4_study\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-7913.lib"
