@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeFountain() {}
 	ARENABATTLE_API UClass* Z_Construct_UClass_AFountain();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_ArenaBattle();
+	ENGINE_API UClass* Z_Construct_UClass_URotatingMovementComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UParticleSystemComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UPointLightComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
@@ -43,6 +44,22 @@ void EmptyLinkFunctionForGeneratedCodeFountain() {}
 				{ "ModuleRelativePath", "Fountain.h" },
 			};
 #endif
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_RotateSpeed_MetaData[] = {
+				{ "AllowPrivateAccess", "TRUE" },
+				{ "Category", "Stat" },
+				{ "ModuleRelativePath", "Fountain.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_RotateSpeed = { UE4CodeGen_Private::EPropertyClass::Float, "RotateSpeed", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000001, 1, nullptr, STRUCT_OFFSET(AFountain, RotateSpeed), METADATA_PARAMS(NewProp_RotateSpeed_MetaData, ARRAY_COUNT(NewProp_RotateSpeed_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Movement_MetaData[] = {
+				{ "Category", "Fountain" },
+				{ "EditInline", "true" },
+				{ "ModuleRelativePath", "Fountain.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Movement = { UE4CodeGen_Private::EPropertyClass::Object, "Movement", RF_Public|RF_Transient|RF_MarkAsNative, 0x00100000000a0009, 1, nullptr, STRUCT_OFFSET(AFountain, Movement), Z_Construct_UClass_URotatingMovementComponent_NoRegister, METADATA_PARAMS(NewProp_Movement_MetaData, ARRAY_COUNT(NewProp_Movement_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ID_MetaData[] = {
 				{ "Category", "ID" },
@@ -85,6 +102,8 @@ void EmptyLinkFunctionForGeneratedCodeFountain() {}
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Body = { UE4CodeGen_Private::EPropertyClass::Object, "Body", RF_Public|RF_Transient|RF_MarkAsNative, 0x00100000000a0009, 1, nullptr, STRUCT_OFFSET(AFountain, Body), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(NewProp_Body_MetaData, ARRAY_COUNT(NewProp_Body_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_RotateSpeed,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Movement,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ID,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Splash,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Light,
@@ -109,7 +128,7 @@ void EmptyLinkFunctionForGeneratedCodeFountain() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFountain, 2312598855);
+	IMPLEMENT_CLASS(AFountain, 839785045);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AFountain(Z_Construct_UClass_AFountain, &AFountain::StaticClass, TEXT("/Script/ArenaBattle"), TEXT("AFountain"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AFountain);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

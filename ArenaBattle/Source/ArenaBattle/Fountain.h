@@ -2,7 +2,8 @@
 
 #pragma once
 
-#include "EngineMinimal.h"
+#include "ArenaBattle.h"
+#include "GameFramework/RotatingMovementComponent.h"
 #include "GameFramework/Actor.h"
 #include "Fountain.generated.h"
 
@@ -18,10 +19,12 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+	virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;
+	virtual void PostInitializeComponents() override;
 
 public:	
 	// Called every frame
-	virtual void Tick(float DeltaTime) override;
+	//virtual void Tick(float DeltaTime) override;
 
 	// NOTE: UPROPERTY은 UE4에게 memory 관리를 자동으로 맡기겠다는 의미이다. 이 때 UE4 object에 속하는 것들만 UPROPERTY의 적용이 가능하다.
 	UPROPERTY(VisibleAnywhere)
@@ -39,5 +42,12 @@ public:
 		
 	UPROPERTY(VisibleAnywhere,Category = ID)
 	int32 ID;
+
+	UPROPERTY(VisibleAnywhere)
+	URotatingMovementComponent* Movement;
+
+private:
+	UPROPERTY(EditAnywhere, Category = Stat, Meta = (AllowPrivateAccess = true))
+	float RotateSpeed;
 	
 };
