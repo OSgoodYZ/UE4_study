@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\ArenaBattle.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{EA3A5E79-C51A-4523-B1B3-F95D6CCE1D05}</UniqueIdentifier>
+			<UniqueIdentifier>{B63A056D-691E-4813-98ED-87C103F83683}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\ArenaBattle.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{1BD1F9A7-8921-47A4-95CF-89ABB76C71F6}</UniqueIdentifier>
+			<UniqueIdentifier>{85C8AA95-70D2-4A8C-BD0E-1FD78E9D3AD8}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,7 +31,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\ArenaBattle">
-			<UniqueIdentifier>{2B25BCAF-DC0E-43ED-B59C-3A25C6D6192A}</UniqueIdentifier>
+			<UniqueIdentifier>{C894B953-6DAB-4A85-A670-E160503C5BCE}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\ArenaBattle\ArenaBattle.Build.cs">
 			<Filter>Source\ArenaBattle</Filter>
@@ -40,12 +40,6 @@
 			<Filter>Source\ArenaBattle</Filter>
 		</ClCompile >
 		<ClInclude Include="..\..\Source\ArenaBattle\ArenaBattle.h">
-			<Filter>Source\ArenaBattle</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\ArenaBattle\Fountain.cpp">
-			<Filter>Source\ArenaBattle</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\ArenaBattle\Fountain.h">
 			<Filter>Source\ArenaBattle</Filter>
 		</ClInclude >
 	</ItemGroup>

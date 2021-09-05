@@ -25,7 +25,6 @@
 /w44668
 /I "X:\Epic Games\UE_4.19\Engine\Source"
 /I X:\OSgoodYZ\UE4_study\ArenaBattle\Source
-/I X:\OSgoodYZ\UE4_study\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattle
 /I X:\OSgoodYZ\UE4_study\ArenaBattle\Source\ArenaBattle
 /I "X:\Epic Games\UE_4.19\Engine\Source\Runtime\Core\Public"
 /I "X:\Epic Games\UE_4.19\Engine\Source\Runtime\Core\Public\Internationalization"
