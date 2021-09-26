@@ -415,6 +415,8 @@
 		<None Include="..\..\Config\DefaultEngine.ini" />
 		<None Include="..\..\Config\DefaultGame.ini" />
 		<None Include="..\..\Config\DefaultInput.ini" />
+		<ClCompile Include="..\..\Source\ArenaBattle\ABCharacter.cpp" />
+		<ClInclude Include="..\..\Source\ArenaBattle\ABCharacter.h" />
 		<ClCompile Include="..\..\Source\ArenaBattle\ABGameMode.cpp" />
 		<ClInclude Include="..\..\Source\ArenaBattle\ABGameMode.h" />
 		<ClCompile Include="..\..\Source\ArenaBattle\ABPawn.cpp" />
